@@ -1,5 +1,7 @@
 import { NavLink, Outlet } from "react-router-dom"
 
+import wave from "../assets/wave.svg"
+
 export default function RootLayout() {
   return ( 
     <div className="root-layout">
@@ -17,6 +19,7 @@ export default function RootLayout() {
       <main>
         <Outlet />
       </main>
+      <img src={wave} alt="" />
     </div>
   );
 }
