@@ -5,11 +5,13 @@ export default function RootLayout() {
     <div className="root-layout">
       <header>
         <nav>
-          <h1>Budget App</h1>
-          <NavLink to='/'>Home</NavLink>
-          <NavLink to='transactions'>Transactions</NavLink>
-          <NavLink to='table'>Table View</NavLink>
-          <NavLink to='graph'>Graph View</NavLink>
+          <h1 className="app-name"><NavLink to='/'>Budget App</NavLink></h1>
+          <div className="nav-buttons">
+            <NavLink to='/'>Home</NavLink>
+            <NavLink to='transactions'>Transactions</NavLink>
+            <NavLink to='table'>Table View</NavLink>
+            <NavLink to='graph'>Graph View</NavLink>
+          </div>
         </nav>
       </header>
       <main>
