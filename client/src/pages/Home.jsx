@@ -40,7 +40,7 @@ export default function Home() {
           onChange={handleFileUpdate}
           hidden
         />
-        <label for="file-input">Choose File</label>
+        <label htmlFor="file-input">Choose File</label>
       </div>
       <div className="file-name">
         {currentFile === '' && <p>No file selected</p>}
