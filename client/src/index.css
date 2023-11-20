@@ -24,6 +24,11 @@ img {
   max-width: 100%;
 }
 
+/* page content */
+main {
+  margin: auto auto;
+}
+
 /* root layout */
 .root-layout {
   display: grid;
@@ -72,7 +77,24 @@ img {
   border: 3px solid var(--secondary);
 }
 
-/* page content */
-main {
-  margin: auto auto;
+/* home */
+.home .choose-file {
+  display: flex;
+  justify-content: center;
+}
+.home .choose-file label {
+  background-color: var(--primary);
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+}
+.home .choose-file label:hover {
+  background-color: var(--secondary);
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+}
+.home .file-name {
+  display: flex;
+  justify-content: center;
 }
