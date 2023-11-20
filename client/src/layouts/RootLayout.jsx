@@ -7,7 +7,7 @@ export default function RootLayout() {
     <div className="root-layout">
       <header>
         <nav>
-          <h1 className="app-name"><NavLink to='/'>Budget App</NavLink></h1>
+          <h1 className="app-name"><NavLink to='/'>Finance Tracker</NavLink></h1>
           <div className="nav-buttons">
             <NavLink to='/'>Home</NavLink>
             <NavLink to='transactions'>Transactions</NavLink>
